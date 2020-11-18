@@ -1,0 +1,176 @@
+/*****Отступ "тела" от левого края, правого края и верха*****/
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 2;
+  
+}
+
+/*****Отступ заголовка от верхнего края страницы*****/
+h1{
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+}
+
+h2{
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+} 
+
+h3{
+  color: #11999E;
+}
+
+.footer-link{
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+/*****цвет заднего фона*****/
+.top-container{
+  background-color: #00000000;
+  position: relative;
+  padding-top: 100px;
+  
+}
+
+.bottom-container{
+  background-color: #72caca;
+  padding: 50px 0 20px;
+}
+
+
+
+body{
+  /*background-image: url(../images/cow3.jpeg);*/
+  background-color: #EAF6F6;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 300px;
+
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  top: 430px;
+
+}
+
+.mountain{
+  margin-top: 170px;
+}
+
+.contact-me{
+  margin-bottom: 50px;
+}
+
+.middle-container{
+  margin-top: 50px;
+}
+
+.skill-row{
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 3;
+}
+
+.img-skills{
+  float: left;
+  margin-right: 10px;
+}
+.img-skills-row{
+  float: right;
+  margin-right: 10px;
+}
+
+.float-1{
+  margin-left: 280px;
+  
+  
+}
+.float-2{
+  margin-right: 280px;
+  
+}
+
+.first-p{
+  color: #40514E;
+}
+.autor{
+  color: #f0f0f0;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.hrule{
+  border: dotted #b9b9b9 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;  
+}
+
+.describe-p{
+  width: 50%;
+  margin: 40px auto 60px;
+  text-align: center;
+}
+
+.BUTTON_DNX {
+  background: #3D94F6;
+  background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 0;
+  line-height: 0;
+  color: #FFFFFF;
+  font-family: 'Press Start 2P', cursive;
+  width: 150px;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 20px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_DNX:hover {
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
